@@ -1,9 +1,10 @@
-# habit-tracker
+Habit Tracker 
+
 Aplicação desenvolvida durante o NLW da Rocketseat 
 
 Stacks utilizadas: 
 
-JavaScript 
-HTML
-CSS
+- JavaScript 
+- HTML
+- CSS
 
