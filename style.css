@@ -1,7 +1,7 @@
 *{
-  margin:0;
+  margin: 0;
   padding: 0;
-  box-sizing: : border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -14,7 +14,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   padding: 48px; 
+
+  position: fixed; 
+  width: 100%;
+  background-color: #f1ebdf;
 }
 
 button {
@@ -37,7 +42,8 @@ line-height: 125%;
 #form-habits {
   display: flex;
 
-  padding: 0 48px; 
+  padding: 182px 48px 48px; 
+  width: fit-content;
 }
 
 .habits {
@@ -95,4 +101,10 @@ input:checked {
 background: #BE123C;
 border: 1px solid #F43F5E;
 border-radius: 4px;
+}
+
+@media (max-width: 570px) {
+  button div {
+    display:none; 
+  }
 }
